@@ -8,3 +8,4 @@ dotnet watch run
 3) nuGet pack
 4) .NET install tool
 5) NuGet Gallery
+6) c# extensions JosKreativ
