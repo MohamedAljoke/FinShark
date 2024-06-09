@@ -9,6 +9,6 @@ namespace api.Interfaces
 {
     public interface IStockRepository : IBaseRepository<Stock, UpdateStockRequestDto>
     {
-
+        Task<bool> StockExists(int id);
     }
 }

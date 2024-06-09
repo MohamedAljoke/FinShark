@@ -15,5 +15,10 @@ namespace api.Repository
 
             return await query.ToListAsync();
         }
+
+        public Task<bool> StockExists(int id)
+        {
+            return _dbContext.Stock.AnyAsync(s => s.Id == id);
+        }
     }
 }

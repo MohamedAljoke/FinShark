@@ -62,7 +62,6 @@ namespace api.Controllers
             }
             // Console.WriteLine($"Property1 before update: {updateDto.Symbol}");
 
-            Console.WriteLine($"Property1 before update: {stockModel.Symbol}");
             return Ok(stockModel.ToStockDto());
         }
 
@@ -75,6 +74,7 @@ namespace api.Controllers
             {
                 return NotFound();
             }
+
             return NoContent();
         }
     }
