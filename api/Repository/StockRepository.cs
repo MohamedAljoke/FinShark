@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using api.Data;
 using api.Dtos.Stock;
 using api.Interfaces;
@@ -24,6 +20,7 @@ namespace api.Repository
             await _dbContext.SaveChangesAsync();
             return stockModel;
         }
+
 
         public async Task<Stock?> DeleteAsync(int id)
         {
