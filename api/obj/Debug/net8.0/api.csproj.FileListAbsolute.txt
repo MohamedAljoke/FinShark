@@ -140,3 +140,7 @@ C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Microso
 C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Npgsql.dll
 C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\mohammed\Desktop\projetos\dotnet8\FinShark\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
