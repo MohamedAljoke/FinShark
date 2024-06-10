@@ -5,7 +5,7 @@ using api.Models;
 
 namespace api.Repository
 {
-    public class CommentRepository(ApplicationDBContext dbContext) : BaseRepository<Comment, UpdateCommentDto>(dbContext), ICommentRepository
+    public class CommentRepository(ApplicationDBContext dbContext) : BaseRepository<Comment, UpdateCommentDto, Comment>(dbContext), ICommentRepository
     {
     }
 }
